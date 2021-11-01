@@ -1,5 +1,7 @@
 import { Component } from 'react';
 import './App.css';
+import Lists from './components/Lists';
+import Navbar from './components/Navbar';
 
 class App extends Component{
   constructor(){
@@ -8,6 +10,8 @@ class App extends Component{
   render(){
     return (
       <div className="app">
+        <Navbar />
+        <Lists />
       </div>
     );
   }
