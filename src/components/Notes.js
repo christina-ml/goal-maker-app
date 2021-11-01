@@ -7,6 +7,7 @@ class Notes extends Component{
     render(){
       return (
         <div className="notes">
+            notes
         </div>
       );
     }
