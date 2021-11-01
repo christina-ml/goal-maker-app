@@ -7,7 +7,11 @@ class Navbar extends Component{
     render(){
       return (
         <div className="navbar">
-            navbar
+            <h1>Goal Maker App</h1>
+            <div className="buttons">
+                <button>Settings</button>
+                <button>Log out</button>
+            </div>
         </div>
       );
     }

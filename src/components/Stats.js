@@ -7,7 +7,8 @@ class Stats extends Component{
     render(){
       return (
         <div className="stats">
-            stats
+            <div>Total Completed Lists: 5</div>
+            <div>Current Items Complete: 0%</div>
         </div>
       );
     }
