@@ -9,10 +9,12 @@ class Notes extends Component{
       return (
         <div className="notes">
             <h2>These are all the Notes</h2>
-            <Note />
-            <Note />
-            <Note />
-            <Note />
+            <div className="note-container">
+              <Note />
+              <Note />
+              <Note />
+              <Note />
+            </div>
         </div>
       );
     }

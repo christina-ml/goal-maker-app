@@ -7,5 +7,32 @@ body {
 }
 
 .app {
-  
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 12vh 12vh auto;
+}
+
+.navbar {
+  grid-column-start: span 2;
+  background-color: #efe2ba;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+/* Grid parent */
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.note-container {
+  height: 75vh;
+  overflow: scroll;
 }

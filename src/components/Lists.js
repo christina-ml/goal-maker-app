@@ -9,10 +9,12 @@ class Lists extends Component{
       return (
         <div className="lists">
             <h2>These are all the lists</h2>
-            <List />
-            <List />
-            <List />
-            <List />
+            <div className="list-container">
+              <List />
+              <List />
+              <List />
+              <List />
+            </div>
         </div>
       );
     }
